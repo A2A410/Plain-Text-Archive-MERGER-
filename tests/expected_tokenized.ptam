@@ -1,0 +1,34 @@
+[header]
+# PTAM Archive v1.1
+# tokenization: true
+# media_references: true
+[structure]
+/
+/folder1/
+/folder1/subfolder1/
+/folder2/
+[tokens]
+$01="another"
+$02="wonderful"
+[path:/]
+folder1/
+folder2/
+root_file.txt
+(hello world
+)
+tokenize_me.txt
+($02 $02 $02 $02 $02 $01 $01 $01 $01 $01
+)
+
+[path:/folder1/]
+subfolder1/
+binary.data (skipped_binary:sha256:b635608e8836476ad47deca630cc52ed3c4f15ae3d787156674d789921432662)
+file1.txt
+(this is \(file1\)
+)
+
+[path:/folder1/subfolder1/]
+empty_file.txt//
+
+[path:/folder2/]
+[g-end]
