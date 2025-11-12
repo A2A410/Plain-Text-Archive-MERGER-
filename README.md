@@ -1,6 +1,8 @@
 # Plain Text Archive Merger (.ptam)
 
-A Python library for creating and extracting `.ptam` archives. This format is designed to be human-readable and stores files in a non-compressed way.
+A Python library for creating `.ptam` archives. This format is designed to be human-readable and allows multiple files and directories to be merged into a single text file.
+
+**Note:** This version of the library focuses exclusively on the archiving (merging) functionality.
 
 ## Documentation
 
