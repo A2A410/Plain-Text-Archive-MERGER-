@@ -7,4 +7,4 @@ A Python library for creating and extracting human-readable, non-compressed arch
 from .core import archive, extract
 
 __all__ = ['archive', 'extract']
-__version__ = '0.1.0'
+__version__ = '1.1.0'
